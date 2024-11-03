@@ -7,7 +7,7 @@
                 <h2 data-layername="contactThePublisher" class="self-stretch text-lg font-bold leading-none text-white">
                   Contact the Publisher
                 </h2>
-                <a href="mailto:mike@runo.com" data-layername="mikeRunoCom" class="mt-4">mike@runo.com</a>
+                <a href="mailto:mike@runo.com" data-layername="mikeRunoCom" class="mt-4">contact@inspiredgrid.com</a>
                 <a href="tel:+944450904505" data-layername="944450904505" class="mt-2">
                   +944 450 904 505
                 </a>
@@ -47,10 +47,10 @@
       </div>
     </footer>
 
-    <footer data-layername="subFooter" class="flex flex-col text-sm text-[#E5E5E5] bg-[#343A40] ">
+    <footer data-layername="subFooter" class="flex flex-col text-sm text-[#E5E5E5] bg-[#343A40] tracking-wide ">
     <div data-layername="subFooterBg" class="flex flex-wrap gap-5 justify-between max-w-[1400px] mx-auto px-5 py-5 w-full ">
       <p data-layername="2021RunoPublisherStudio" class="font-medium">
-        2024 | RUNO Publisher Studio
+        2024 | InspiredGrid Publisher Studio
       </p>
       <button data-layername="subscribeNow" class="text-right" @click="handleSubscribe">
         Subscribe Now

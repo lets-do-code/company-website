@@ -1,7 +1,7 @@
 
 
 <template>
-    <div class="flex flex-col gap-5 max-w-[1400px] mx-auto w-full px-5">
+    <div class="flex flex-col gap-5 max-w-[1240px] mx-auto w-full px-5">
         <h1 class=" w-full text-4xl font-semibold text-[#495057]">
             Editor’s Pick
         </h1>

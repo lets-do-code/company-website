@@ -1,7 +1,7 @@
 <template>
   <header class="fixed z-[9999] w-full flex flex-col font-bold bg-black/40 tracking-wider">
-    <div class="flex flex-wrap gap-5 justify-between max-w-[1400px] mx-auto py-7 px-5 w-full ">
-      <h1 class="text-xl text-[#E5E5E5]">RUNO</h1>
+    <div class="flex flex-wrap gap-5 justify-between max-w-[1240px] mx-auto py-7 px-5 w-full ">
+      <h1 class="text-xl text-[#E5E5E5]">InspiredGrid</h1>
       <nav class="max-sm:hidden flex gap-4 self-start text-sm ">
 
         <a v-for="link in navLinks" :key="link.id" :href="link.path" class="my-auto text-[#E5E5E5] ">{{ link.name }}</a>

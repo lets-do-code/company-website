@@ -6,7 +6,7 @@
             alt="Background image for blog post" class="object-cover inset-0 w-full h-full" />
         <div class="absolute w-full">
             <article
-                class="flex max-w-[1400px] mx-auto flex-col items-start  pt-72 pb-16 w-full min-h-[600px] px-5 max-md:pt-48 max-md:max-w-full">
+                class="flex max-w-[1240px] mx-auto flex-col items-start  pt-72 pb-16 w-full min-h-[600px] px-5 max-md:pt-48 max-md:max-w-full">
 
                 <div class="md:w-[580px]">
                     <span data-layername="category"

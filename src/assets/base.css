@@ -61,12 +61,13 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: #E5E5E5;
+  background: #ffffff;
   transition:
     color 0.5s,
     background-color 0.5s;
   line-height: 1.6;
-  font-family: 'Lora', serif;
+  /* font-family: 'Lora', serif; */
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -79,9 +80,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora', serif;
+  font-family: "Roboto", sans-serif;
+
 }
 
 body {
-  font-family: 'Lora', serif, 'Georgia', Times, 'Times New Roman', serif;
+  font-family: "Roboto", sans-serif;
 }
