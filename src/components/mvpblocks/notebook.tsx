@@ -40,13 +40,13 @@ export default function NotebookHero() {
                 }}
               />
               <h1 className="mb-4 flex flex-wrap gap-2 text-3xl leading-tight font-medium md:text-5xl">
-                Build <span className="text-primary">Beautiful UI</span> with
-                MVPBlocks
+                Build <span className="text-primary">Beautiful Website</span> with
+                MatLab
               </h1>
               <p className="text-muted-foreground mb-8 text-left md:max-w-[80%] md:text-xl">
                 Your comprehensive library of ready-to-use UI components built
                 with Next.js and Tailwind CSS. From simple buttons to complex
-                layouts, MVPBlocks helps you create stunning interfaces with
+                layouts, MatLab helps you create stunning interfaces with
                 minimal effort.
               </p>
               <div className="mb-6 flex flex-wrap gap-4 md:flex-row">

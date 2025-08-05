@@ -25,7 +25,7 @@ const defaultMembers: TeamMember[] = [
   {
     name: 'Alex Morgan',
     role: 'Founder & CEO',
-    bio: '10+ years of experience in product development and team leadership. Passionate about building products that make a difference.',
+    bio: '10+ years of experience in product development and team leadership. Passionate about building products.',
     imageUrl:
       'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=300&h=300&auto=format&fit=crop',
     location: 'San Francisco, CA',
@@ -70,8 +70,8 @@ export default function Team1({
 }: TeamProps) {
   return (
     <section className={cn('mx-auto max-w-[1400px] px-2 py-16', className)}>
-      <div className="bg-primary/15 absolute top-0 left-0 h-96 w-96 rounded-full blur-3xl" />
-      <div className="bg-primary/15 absolute top-0 right-0 h-96 w-96 rounded-full blur-3xl" />
+      {/* <div className="bg-primary/15 absolute top-0 left-0 h-96 w-96 rounded-full blur-3xl" />
+      <div className="bg-primary/15 absolute top-0 right-0 h-96 w-96 rounded-full blur-3xl" /> */}
       <div className="container max-md:px-2">
         <div className="mx-auto mb-16 max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-medium tracking-tight sm:text-4xl md:text-5xl">
@@ -105,7 +105,7 @@ function TeamMemberCard({ member }: { member: TeamMember }) {
         />
       </div>
 
-      <div className="flex h-[220px] flex-col p-5">
+      <div className="flex  flex-col p-5">
         {member.location && (
           <div className="text-muted-foreground mb-1 flex items-center text-xs">
             <div className="bg-primary mr-1.5 h-1.5 w-1.5 rounded-full" />
