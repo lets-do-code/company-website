@@ -84,7 +84,7 @@ export default function Header2() {
         initial="hidden"
         animate="visible"
       >
-        <div className="mx-auto max-w-[1400px] w-full border px-4 md:px-2">
+        <div className="mx-auto max-w-[1400px] w-full px-4 md:px-2">
           <div className="flex h-16 items-center justify-between">
             <motion.div
               className="flex items-center space-x-3"
