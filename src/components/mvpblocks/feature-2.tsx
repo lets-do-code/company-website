@@ -7,41 +7,41 @@ import { Rocket, Code, Paintbrush } from 'lucide-react';
 
 const features = [
   {
-    step: 'Step 1',
-    title: 'Build Faster',
+    step: 'Plan with Precision',
+    title: 'Plan with Precision',
     content:
-      'Create your MVP in record time with our pre-built blocks and components.',
+      'Understand your goals and map out a strategy tailored to your brand, audience, and business needs',
     icon: <Rocket className="text-primary h-6 w-6" />,
     image:
       'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=2070&auto=format&fit=crop',
   },
   {
-    step: 'Step 2',
-    title: 'Customize Easily',
+    step: 'Design & Develop',
+    title: 'Design & Develop',
     content:
-      'Tailor every component to your needs with our intuitive design system and flexible architecture.',
-    icon: <Paintbrush className="text-primary h-6 w-6" />,
+      'We build pixel-perfect, responsive, and SEO-optimized websites using modern tools like Next.js and Tailwind CSS',
+    icon: <Code className="text-primary h-6 w-6" />,
     image:
       'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?q=80&w=2070&auto=format&fit=crop',
   },
   {
-    step: 'Step 3',
-    title: 'Deploy Confidently',
+    step: 'Go Live & Grow',
+    title: 'Go Live & Grow',
     content:
-      'Launch your product with confidence using our optimized, responsive, and accessible components.',
-    icon: <Code className="text-primary h-6 w-6" />,
+      'Launch confidently with ongoing support, analytics integration, and lead-generation tools built right in',
+    icon: <Paintbrush className="text-primary h-6 w-6" />,
     image:
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
   },
   {
-    step: 'Step 4',
-    title: 'Add Yours!',
+    step: 'Scale Your Growth',
+    title: 'Scale Your Growth',
     content:
-      'Contribute your own blocks and become part of the MVPBlocks community.',
-    icon: <Code className="text-primary h-6 w-6" />,
+      'We help you convert visitors into customers through strategic CTAs, lead capture forms, booking engines, and CRM integrations — driving measurable business growth.',
+    icon: <Rocket className="text-primary h-6 w-6" />,
     image:
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-  },
+      'https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=2070&auto=format&fit=crop',
+  }
 ];
 
 export default function FeatureSteps() {
@@ -67,11 +67,10 @@ export default function FeatureSteps() {
         <div className="relative mx-auto mb-12 max-w-2xl sm:text-center">
           <div className="relative z-10">
             <h2 className="font-geist text-3xl font-medium tracking-tighter md:text-4xl lg:text-5xl">
-              Build Your MVP in Three Steps
+              Launch Your Dream Website in 3 Simple Steps
             </h2>
             <p className="font-geist text-foreground/60 mt-3">
-              MVPBlocks helps you create, customize, and deploy your product
-              faster than ever before.
+              From strategy to deployment, we simplify the process of building impactful websites for hospitality, travel, and every growing business
             </p>
           </div>
           <div

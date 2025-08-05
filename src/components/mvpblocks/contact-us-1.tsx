@@ -59,7 +59,7 @@ export default function ContactUs1() {
 
       <div className="relative z-10 container mx-auto px-4 md:px-2 max-w-[1400px]">
         <div className="border-border/40 bg-secondary/20  overflow-hidden rounded-[28px] border shadow-xl backdrop-blur-sm">
-          <div className="grid md:grid-cols-2">
+          <div id='contact' className="grid md:grid-cols-2">
             <div className="relative p-6 md:p-10" ref={formRef}>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}

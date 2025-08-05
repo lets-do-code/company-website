@@ -13,6 +13,7 @@ import {
   Sparkles,
   Rocket,
   Target,
+  // Website,
 } from 'lucide-react';
 
 interface AboutUsProps {
@@ -40,30 +41,55 @@ const iconComponents = {
 
 const defaultValues: AboutUsProps['values'] = [
   {
-    title: 'Website Design',
+    title: 'Custom Website Development',
     description:
-      'We constantly push boundaries and explore new possibilities to create cutting-edge solutions.',
+      'We craft responsive, user-focused websites tailored to your brand and business goals — designed to perform across all devices.',
     icon: 'Lightbulb',
   },
   {
-    title: 'Web Development',
+    title: 'Smart CRM Integration',
     description:
-      'We believe in the power of teamwork and diverse perspectives to achieve extraordinary results.',
+      'Streamline your sales and support workflows with intelligent CRM integrations that centralize data and boost productivity.',
     icon: 'Users',
   },
   {
-    title: 'E-Commerce',
+    title: 'Lead Generation Strategies',
     description:
-      'We strive for perfection in everything we do, consistently delivering high-quality work.',
+      'We implement proven lead funnels and automation strategies that consistently drive high-quality leads to your business.',
     icon: 'Sparkles',
   },
   {
-    title: 'Website Maintenance',
+    title: 'Landing Pages',
     description:
-      "We measure our success by the positive difference we make in people's lives and businesses.",
+      'High-converting, SEO-optimized landing pages built to engage your visitors and drive action with compelling CTAs.',
+    icon: 'Sparkles',
+  },
+  {
+    title: 'Ongoing Support & Maintenance',
+    description:
+      'We ensure your website and systems stay secure, up-to-date, and optimized with proactive support and maintenance.',
     icon: 'Globe',
   },
+  {
+    title: 'Conversion Optimization',
+    description:
+      'We analyze user behavior and optimize the user journey to increase conversions and maximize ROI across your digital platforms.',
+    icon: 'Sparkles',
+  },
+  {
+    title: 'SEO & Performance Tuning',
+    description:
+      'Our sites are built with speed, accessibility, and search engine performance in mind — for better visibility and user experience.',
+    icon: 'Users',
+  },
+  {
+    title: 'Custom Integrations',
+    description:
+      'We develop secure, scalable integrations with third-party tools, APIs, and payment systems to enhance your digital ecosystem.',
+    icon: 'Lightbulb',
+  },
 ];
+
 
 export default function AboutUs1() {
   const aboutData = {
@@ -208,11 +234,11 @@ export default function AboutUs1() {
                     title={value.title}
                     description={value.description}
                     variant={
-                      index === 0
+                      index === 0 || index === 3
                         ? 'purple'
-                        : index === 1
+                        : index === 6 || index === 4
                           ? 'blue'
-                          : index === 2
+                          : index === 2 || index === 5
                             ? 'amber'
                             : 'rose'
                     }
