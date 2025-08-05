@@ -3,6 +3,7 @@
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { ArrowRight } from 'lucide-react';
+import Banner from "../../../public/avatars/hotel-landing-page-template-with-photo/5143566.jpg"
 
 export default function NotebookHero() {
   return (
@@ -166,7 +167,7 @@ export default function NotebookHero() {
 
             <div className="relative z-10 w-full">
               <img
-                src="../../../public/avatars/hotel-landing-page-template-with-photo/5143566.jpg"
+                src={Banner}
                 alt="MVPBlocks component library preview"
                 width={1000}
                 height={700}
