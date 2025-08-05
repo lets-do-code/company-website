@@ -6,9 +6,9 @@ import { ArrowRight } from 'lucide-react';
 import Banner from "../../../public/avatars/hotel-landing-page-template-with-photo/5143566.jpg"
 
 export default function NotebookHero() {
-  const handleClick = () => {
-    alert("snkdfbjhs")
-  }
+  // const handleClick = () => {
+  //   alert("snkdfbjhs")
+  // }
   return (
     <div className="mt-8 py-6 sm:py-14">
       <div className="pointer-events-none absolute inset-0 top-0 z-0 overflow-hidden">
