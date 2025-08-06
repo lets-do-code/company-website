@@ -1,4 +1,4 @@
-import { SparklesCore } from '@/components/ui/sparkles';
+// import { SparklesCore } from '@/components/ui/sparkles';
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { ArrowRight } from 'lucide-react';
