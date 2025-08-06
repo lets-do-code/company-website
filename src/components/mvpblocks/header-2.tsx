@@ -2,20 +2,19 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence, easeInOut } from 'framer-motion';
-import { Menu, X, ArrowRight, Zap, Search } from 'lucide-react';
-
+import { Menu, X, ArrowRight, Zap } from 'lucide-react';
 interface NavItem {
   name: string;
   href: string;
 }
 
 const navItems: NavItem[] = [
-  { name: 'Home', href: '/' },
-  { name: 'Features', href: '/features' },
-  { name: 'Solutions', href: '/solutions' },
-  { name: 'Pricing', href: '/pricing' },
-  { name: 'Resources', href: '/resources' },
-  { name: 'Contact', href: '/contact' },
+  // { name: 'Home', href: '/' },
+  // { name: 'Features', href: '/features' },
+  // { name: 'Solutions', href: '/solutions' },
+  // { name: 'Pricing', href: '/pricing' },
+  // { name: 'Resources', href: '/resources' },
+  // { name: 'Contact', href: '/contact' },
 ];
 
 export default function Header2() {
@@ -147,30 +146,32 @@ export default function Header2() {
               className="hidden items-center space-x-3 lg:flex"
               variants={itemVariants}
             >
-              <motion.button
+              {/* <motion.button
                 className="text-muted-foreground hover:bg-muted hover:text-foreground rounded-lg p-2 transition-colors duration-200"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Search className="h-5 w-5" />
-              </motion.button>
+              </motion.button> */}
 
-              <a
+              {/* <a
                 href="/login"
                 className="text-foreground/80 hover:text-foreground px-4 py-2 text-sm font-medium transition-colors duration-200"
               >
                 Sign In
-              </a>
+              </a> */}
 
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
                 <a
-                  href="/signup"
+                  href={`https://wa.me/919528295631?text=${encodeURIComponent(
+                    `Hello Lotus Inc!\nI'm looking for a website development service with integrated crm\nLooking forward to hearing from you!`
+                  )}`}
                   className="bg-foreground text-background hover:bg-foreground/90 inline-flex items-center space-x-2 rounded-lg px-5 py-2.5 text-sm font-medium shadow-sm transition-all duration-200"
                 >
-                  <span>Get Started</span>
+                  <span>Contact Us</span>
                   <ArrowRight className="h-4 w-4" />
                 </a>
               </motion.div>
@@ -248,6 +249,8 @@ export default function Header2() {
           </>
         )}
       </AnimatePresence>
+
+
     </>
   );
 }

@@ -13,8 +13,12 @@ import {
   Sparkles,
   Rocket,
   Target,
+  ArrowRight,
   // Website,
 } from 'lucide-react';
+import { BannerProps } from './notebook';
+import { buttonVariants } from '../ui/button';
+import { cn } from '@/lib/utils';
 
 interface AboutUsProps {
   title?: string;
@@ -91,7 +95,9 @@ const defaultValues: AboutUsProps['values'] = [
 ];
 
 
-export default function AboutUs1() {
+export default function AboutUs1(
+  { setOpen }: BannerProps
+) {
   const aboutData = {
     title: 'About Us',
     subtitle:
@@ -111,7 +117,7 @@ export default function AboutUs1() {
   const valuesInView = useInView(valuesRef, { once: true, amount: 0.3 });
 
   return (
-    <section className="relative w-full overflow-hidden pt-20 border">
+    <section id='services' className="relative w-full overflow-hidden pt-20 border">
       <Spotlight
         gradientFirst="radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsla(336, 100%, 50%, 0.08) 0, hsla(341, 100%, 55%, 0.04) 50%, hsla(336, 100%, 45%, 0) 80%)"
         gradientSecond="radial-gradient(50% 50% at 50% 50%, hsla(333, 100%, 85%, 0.08) 0, hsla(335, 100%, 55%, 0.04) 80%, transparent 100%)"
@@ -250,6 +256,22 @@ export default function AboutUs1() {
             })}
           </div>
         </div>
+      </div>
+      <div className='px-4 mb-10 flex justify-center'>
+        <button
+          onClick={() => setOpen && setOpen(true)}
+          style={{ cursor: "pointer" }}
+          className={cn(
+            buttonVariants({
+              size: 'lg',
+              className:
+                // 'from-primary to-primary/80 text-primary-foreground rounded-full bg-gradient-to-b',
+                'rounded-full bg-gradient-to-br from-rose-500 via-rose-600 to-rose-700 text-white shadow-[0px_2px_0px_0px_rgba(255,255,255,0.3)_inset]',
+            }),
+          )}
+        >
+          Contact Us <ArrowRight className="size-4" />
+        </button>
       </div>
     </section>
   );

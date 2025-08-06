@@ -5,7 +5,14 @@ import { cn } from '@/lib/utils';
 import { ArrowRight } from 'lucide-react';
 import Banner from "../../../public/avatars/hotel-landing-page-template-with-photo/5143566.jpg"
 
-export default function NotebookHero() {
+
+export interface BannerProps {
+  open?: boolean,
+  setOpen?: (open: boolean) => void;
+}
+export default function NotebookHero({
+  setOpen
+}: BannerProps) {
   // const handleClick = () => {
   //   alert("snkdfbjhs")
   // }
@@ -125,9 +132,9 @@ export default function NotebookHero() {
               </div>
 
               <div className="z-50 mt-2  absolute max-md:left-0 w-full inline-flex items-center justify-center lg:justify-start gap-3">
-                <a
-                  // onClick={handleClick}
-                  href="#contact"
+                <button
+                  onClick={() => setOpen && setOpen(true)}
+                  // href="#contact"
                   style={{ cursor: "pointer" }}
                   className={cn(
                     buttonVariants({
@@ -139,11 +146,9 @@ export default function NotebookHero() {
                   )}
                 >
                   Get a Free Consultation <ArrowRight className="size-4" />
-                </a>
+                </button>
                 <a
-                  href="https://github.com/subhadeeproy3902/mvpblocks"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  href="#services"
                   className={cn(
                     buttonVariants({
                       size: 'lg',

@@ -13,6 +13,7 @@ import { Check, Loader2 } from 'lucide-react';
 export default function ContactUs1() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -30,6 +31,7 @@ export default function ContactUs1() {
       await new Promise((resolve) => setTimeout(resolve, 1000));
       setName('');
       setEmail('');
+      setPhone('');
       setMessage('');
       setIsSubmitted(true);
       setTimeout(() => {
@@ -118,18 +120,33 @@ export default function ContactUs1() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.5 }}
                   >
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="phone">Phone Number</Label>
                     <Input
-                      id="email"
-                      type="email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Enter your email"
+                      id="phone"
+                      type="number"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
+                      placeholder="Enter your phone number"
                       required
                     />
                   </motion.div>
                 </div>
-
+                <motion.div
+                  className="space-y-2"
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.5 }}
+                >
+                  <Label htmlFor="email">Email</Label>
+                  <Input
+                    id="email"
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="Enter your email"
+                    required
+                  />
+                </motion.div>
                 <motion.div
                   className="space-y-2"
                   initial={{ opacity: 0, y: 10 }}

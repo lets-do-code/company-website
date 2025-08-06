@@ -1,20 +1,21 @@
 import {
-  Dribbble,
+  // Dribbble,
   Facebook,
-  Github,
+  // Github,
   Instagram,
   Mail,
   MapPin,
   Phone,
   Twitter,
+  Zap,
 } from 'lucide-react';
 
 const data = {
-  facebookLink: 'https://facebook.com/mvpblocks',
-  instaLink: 'https://instagram.com/mvpblocks',
-  twitterLink: 'https://twitter.com/mvpblocks',
-  githubLink: 'https://github.com/mvpblocks',
-  dribbbleLink: 'https://dribbble.com/mvpblocks',
+  facebookLink: '',
+  instaLink: '',
+  twitterLink: '',
+  // githubLink: 'https://github.com/mvpblocks',
+  // dribbbleLink: 'https://dribbble.com/mvpblocks's,
   services: {
     webdev: '/web-development',
     webdesign: '/web-design',
@@ -33,12 +34,12 @@ const data = {
     livechat: '/live-chat',
   },
   contact: {
-    email: 'hello@mvpblocks.com',
-    phone: '+91 8637373116',
-    address: 'Kolkata, West Bengal, India',
+    email: 'hello@lotusinc.com',
+    phone: '+91 9528295631',
+    address: 'Gurgaon, Haryana, India',
   },
   company: {
-    name: 'Mvpblocks',
+    name: 'Lotus Inc',
     description:
       'Building beautiful and functional web experiences with modern technologies. We help startups and businesses create their digital presence.',
     logo: '/logo.webp',
@@ -49,8 +50,8 @@ const socialLinks = [
   { icon: Facebook, label: 'Facebook', href: data.facebookLink },
   { icon: Instagram, label: 'Instagram', href: data.instaLink },
   { icon: Twitter, label: 'Twitter', href: data.twitterLink },
-  { icon: Github, label: 'GitHub', href: data.githubLink },
-  { icon: Dribbble, label: 'Dribbble', href: data.dribbbleLink },
+  // { icon: Github, label: 'GitHub', href: data.githubLink },
+  // { icon: Dribbble, label: 'Dribbble', href: data.dribbbleLink },
 ];
 
 const aboutLinks = [
@@ -86,14 +87,31 @@ export default function Footer4Col() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="text-primary flex justify-center gap-2 sm:justify-start">
-              <img
+              {/* <img
                 src={data.company.logo || '/placeholder.svg'}
                 alt="logo"
                 className="h-8 w-8 rounded-full"
-              />
-              <span className="text-2xl font-semibold">
+              /> */}
+              <div className="relative mt-1">
+                <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-rose-500 via-rose-600 to-rose-700 shadow-lg">
+                  <Zap className="h-5 w-5 text-white" />
+                </div>
+                <div className="absolute -top-1 -right-1 h-3 w-3 animate-pulse rounded-full bg-green-400"></div>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-foreground text-lg font-bold">
+                  Lotus Inc
+                </span>
+                <span className="text-muted-foreground -mt-1 text-xs">
+                  One Stop Solution
+                </span>
+              </div>
+              {/* <span className="text-2xl font-semibold">
                 {data.company.name}
               </span>
+              <span className="text-muted-foreground -mt-1 text-xs">
+                One Stop Solution
+              </span> */}
             </div>
 
             <p className="text-foreground/50 mt-6 max-w-md text-center leading-relaxed sm:max-w-xs sm:text-left">
