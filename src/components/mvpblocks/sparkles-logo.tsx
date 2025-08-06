@@ -1,5 +1,7 @@
 import { SparklesCore } from '@/components/ui/sparkles';
-
+import { buttonVariants } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
+import { ArrowRight } from 'lucide-react';
 export default function Page() {
   return (
     <div className=" w-full overflow-hidden bg-[#121212]">
@@ -69,15 +71,34 @@ export default function Page() {
           </svg>
         </div>
       </div>
+      <div className='px-4 mb-10 flex justify-center'>
+        <a
+          // onClick={handleClick}
+          href="#contact"
+          style={{ cursor: "pointer" }}
+          className={cn(
+            buttonVariants({
+              size: 'lg',
+              className:
+                // 'from-primary to-primary/80 text-primary-foreground rounded-full bg-gradient-to-b',
+                'rounded-full mt-20 bg-gradient-to-br from-rose-500 via-rose-600 to-rose-700 text-white shadow-[0px_2px_0px_0px_rgba(255,255,255,0.3)_inset]',
+            }),
+          )}
+        >
+          Get a Free Consultation <ArrowRight className="size-4" />
+        </a>
+      </div>
 
-      <div className="relative -mt-32 h-96 w-screen overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#e60a64,transparent_70%)] before:opacity-40 after:absolute after:top-1/2 after:-left-1/2 after:aspect-[1/0.7] after:w-[200%] after:rounded-[100%] after:border-t after:border-[#c5769066] after:bg-zinc-900">
+      {/* <div className="relative -mt-32 h-96 w-screen overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#e60a64,transparent_70%)] before:opacity-40 after:absolute after:top-1/2 after:-left-1/2 after:aspect-[1/0.7] after:w-[200%] after:rounded-[100%] after:border-t after:border-[#c5769066] after:bg-zinc-900">
         <SparklesCore
           id="tsparticles"
           background="transparent"
           particleDensity={300}
           className="absolute inset-x-0 bottom-0 h-full w-full [mask-image:radial-gradient(50%_50%,white,transparent_85%)]"
         />
-      </div>
+
+      </div> */}
+
     </div>
   );
 }

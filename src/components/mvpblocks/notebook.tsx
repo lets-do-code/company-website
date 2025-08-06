@@ -133,7 +133,8 @@ export default function NotebookHero() {
                     buttonVariants({
                       size: 'lg',
                       className:
-                        'from-primary to-primary/80 text-primary-foreground rounded-full bg-gradient-to-b ',
+                        // 'from-primary to-primary/80 text-primary-foreground rounded-full bg-gradient-to-b',
+                        'rounded-full bg-gradient-to-br from-rose-500 via-rose-600 to-rose-700 text-white shadow-[0px_2px_0px_0px_rgba(255,255,255,0.3)_inset]',
                     }),
                   )}
                 >

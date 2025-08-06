@@ -101,10 +101,10 @@ export default function Header2() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-foreground text-lg font-bold">
-                    Acme Inc.
+                    Lotus Inc
                   </span>
                   <span className="text-muted-foreground -mt-1 text-xs">
-                    Build faster
+                    One Stop Solution
                   </span>
                 </div>
               </a>
