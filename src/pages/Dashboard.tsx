@@ -15,8 +15,15 @@ export default function Dashboard() {
 
     const [open, setOpen] = useState<boolean>(false);
 
+    const handleConnect = () => {
+        window.location.href = 'https://sales-o1hz.onrender.com/auth'; // Backend endpoint
+    };
+
     return (
         <div className="relative">
+            <div className="bg-red-700 text-white z-[9999999999999999999] absolute cursor-pointer" onClick={handleConnect}>
+                Connect to Zoho
+            </div>
             {/* <PageHeader>
                 <PageHeaderHeading>Dashboard</PageHeaderHeading>
             </PageHeader>
