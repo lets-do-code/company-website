@@ -9,7 +9,7 @@ import { Quote } from 'lucide-react';
 
 const defaultTestimonials = [
   {
-    text: 'MVPBlocks has completely changed the way I build UIs. Copy-paste, done. No more design stress.',
+    text: 'Kyra It Solutions has completely changed the way I build UIs. Copy-paste, done. No more design stress.',
     imageSrc: '/assets/avatars/avatar-1.webp',
     name: 'Arjun Mehta',
     username: '@arjdev',
@@ -23,7 +23,7 @@ const defaultTestimonials = [
     role: 'UX Designer',
   },
   {
-    text: 'Our team launched a client site in 2 days using MVPBlocks. Saved so much time.',
+    text: 'Our team launched a client site in 2 days using Kyra It Solutions. Saved so much time.',
     imageSrc: '/assets/avatars/avatar-3.webp',
     name: 'Devon Carter',
     username: '@devninja',
@@ -44,7 +44,7 @@ const defaultTestimonials = [
     role: 'Startup Founder',
   },
   {
-    text: 'MVPBlocks helped us prototype multiple landing pages without writing CSS once.',
+    text: 'Kyra It Solutions helped us prototype multiple landing pages without writing CSS once.',
     imageSrc: '/assets/avatars/avatar-6.webp',
     name: 'Chloe Winters',
     username: '@chloewinters',

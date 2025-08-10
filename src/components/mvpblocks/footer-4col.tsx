@@ -34,12 +34,12 @@ const data = {
     livechat: '/live-chat',
   },
   contact: {
-    email: 'hello@lotusinc.com',
+    email: 'hello@kyraitsolutions.com',
     phone: '+91 9528295631',
     address: 'Gurgaon, Haryana, India',
   },
   company: {
-    name: 'Lotus Inc',
+    name: 'kyra It Solutions',
     description:
       'Building beautiful and functional web experiences with modern technologies. We help startups and businesses create their digital presence.',
     logo: '/logo.webp',
@@ -100,7 +100,7 @@ export default function Footer4Col() {
               </div>
               <div className="flex flex-col">
                 <span className="text-foreground text-lg font-bold">
-                  Lotus Inc
+                  Kyra It Solutions
                 </span>
                 <span className="text-muted-foreground -mt-1 text-xs">
                   One Stop Solution
