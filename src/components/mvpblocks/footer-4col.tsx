@@ -35,7 +35,7 @@ const data = {
   },
   contact: {
     email: 'hello@kyraitsolutions.com',
-    phone: '+91 9528295631',
+    phone: '+919999999999',
     address: 'Gurgaon, Haryana, India',
   },
   company: {
