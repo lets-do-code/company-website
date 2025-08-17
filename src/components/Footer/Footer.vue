@@ -57,10 +57,10 @@
 
     <footer  class="flex flex-col text-sm bg-[#343A40] tracking-wide ">
     <div class="flex flex-wrap gap-5 justify-between max-w-[1240px] mx-auto px-5 py-5 w-full ">
-      <p class="text-base md:text-lg font-medium text-white">
+      <p class="text-base md:text-md text-white">
         2025 | Kyra IT Solutions
       </p>
-      <button class="text-right text-white" @click="handleSubscribe">
+      <button class="text-right text-base md:text-md text-white" @click="handleSubscribe">
         Subscribe Now
       </button>
     </div>
