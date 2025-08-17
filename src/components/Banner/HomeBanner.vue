@@ -16,7 +16,7 @@
                
         </div>
         <div class="w-full">
-            <img class="w-full" src="/Banner.png" alt="banner" loading="lazy3 "/>
+            <img class="w-full" src="/Banner.png" alt="banner" loading="lazy"/>
         </div>
         </div>
         
