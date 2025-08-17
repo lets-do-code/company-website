@@ -5,9 +5,9 @@ import Navbar from './components/Navbar/Navbar.vue';
 
 
 <template>
-    <Navbar/>
+  <Navbar/>
 
-  <div id="app">
+  <div id="app" class="max-w-[1240px] mx-auto !px-5">
     <router-view/>
   </div>
   <Footer/>

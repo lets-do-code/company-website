@@ -1,9 +1,11 @@
 <template>
     <div class="flex flex-col gap-20">
-        <Banner />
-        <BlogSection />
-        <BigPostBanner/>
-        <EditorSection/>
+        <HomeBanner/>
+        <HomeStats/>
+        <HomeAbout/>
+        <HomeService/>
+        <HomePartners/>
+        <HomeMapView/>
     </div>
 </template>
 
@@ -11,19 +13,23 @@
 
 
 <script>
-import Banner from '@/components/Banner/Banner.vue';
-import BigPostBanner from '@/components/Banner/BigPostBanner.vue';
-import BlogSection from '@/components/BlogCard/BlogSection.vue';
-import EditorSection from '@/components/Editor/EditorSection.vue';
+import HomeAbout from "@/components/About/HomeAbout.vue";
+import HomeBanner from "@/components/Banner/HomeBanner.vue"
+import HomePartners from "@/components/Partner/HomePartners.vue";
+import HomeMapView from "@/components/Presence/HomeMapView.vue";
+import HomeService from "@/components/ServiceSec/HomeService.vue";
+import HomeStats from "@/components/Stats/HomeStats.vue";
 
 import { defineComponent } from 'vue';
 
 export default defineComponent({
     components: {
-        Banner,
-        BlogSection,
-        BigPostBanner,
-        EditorSection
+        HomeBanner,
+        HomeStats,
+        HomeAbout,
+        HomeMapView,
+        HomePartners,
+        HomeService
     },
 
 })
