@@ -39,7 +39,7 @@
                   Headquarter
                 </h2>
                 <address class="mt-4 text-base lg:text-md  leading-5 not-italic">
-                  New Delhi,India
+                  New Delhi, India
                 </address>
                 <a href="tel:+919999999999" class="text-base lg:text-md">+919999999999</a>
                 <a href="mailto:contact@kyraitsolutions.com" class="text-base lg:text-md">contact@<span class="text-[#F53838]/100 font-medium">kyraitsolutions.com</span></a>
