@@ -19,8 +19,9 @@
             <div class="flex flex-col gap-1">
                 <label htmlFor="message" class="text-md text-black">Message</label>
                 <textarea id="message" rows="8" placeholder="Tell about your brand" value="" class=" resize-none outline-none px-3 py-2 text-md text-black border"/>
-
             </div>
+
+            <button class="py-2 bg-[#F53838] text-white text-md ">Submit</button>
         </form>
     </div>
 </template>
