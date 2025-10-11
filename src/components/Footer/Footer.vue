@@ -1,7 +1,7 @@
 <template>
     <footer  class="flex flex-col bg-[#0B132A] tracking-wider mt-20">
       <div  class="flex flex-col justify-center items-start max-w-[1240px] mx-auto px-5 py-10 w-full lg:py-24">
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-x-5 gap-y-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 w-full gap-x-5 gap-y-5">
             <section class="flex flex-col gap-3 items-start ">
               <div class="flex justify-center items-center gap-3 text-xl text-[#FFFFFF]">
               <svg width="35" height="37" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@
                 Empowering growth through technology and expertise.
               </p>
             </section>
-            <nav class="flex flex-col ">
+            <!-- <nav class="flex flex-col ">
               <div class="flex flex-col grow items-start text-sm ">
                 <h2 class="text-lg font-bold leading-none text-white">
                   Quick Links
@@ -32,8 +32,8 @@
                   <li><a href="#" data-layername="membership" >Testomonials</a></li>
                 </ul>
               </div>
-            </nav>
-            <section  class="flex flex-col ">
+            </nav> -->
+            <section  class="flex flex-col md:items-end">
               <div class="flex flex-col gap-3">
                 <h2  class="text-xl font-bold leading-none text-white">
                   Headquarter
@@ -41,11 +41,11 @@
                 <address class="mt-4 text-base lg:text-md  leading-5 not-italic">
                   New Delhi, India
                 </address>
-                <a href="tel:+919999999999" class="text-base lg:text-md">+919999999999</a>
-                <a href="mailto:contact@kyraitsolutions.com" class="text-base lg:text-md">contact@<span class="text-[#F53838]/100 font-medium">kyraitsolutions.com</span></a>
+                <a href="tel:+919528295631" class="text-base lg:text-md">+919528295631</a>
+                <a href="mailto:kyraitsolutions@gmail.com" class="text-base lg:text-md"><span class=" font-medium">kyraitsolutions@gmail.com</span></a>
               </div>
             </section>
-            <section  class="flex flex-col">
+            <section  class="flex flex-col md:items-end">
               <div class="flex flex-col text-lg font-bold leading-none text-white whitespace-nowrap max-md:mt-10">
                 <h2  class="self-start">Connections</h2>
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c681442f2074261c4b992f8b41b4ee937206fb87c8d7ab9ab0809e9ccf38de12?placeholderIfAbsent=true&apiKey=c81aa461ed88497c9715fa37b92c8996" alt="Social media connections" class="object-contain mt-4 aspect-[8.62] w-[172px]" />
