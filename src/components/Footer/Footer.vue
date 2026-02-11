@@ -41,7 +41,7 @@
                 <address class="mt-4 text-base lg:text-md  leading-5 not-italic">
                   New Delhi, India
                 </address>
-                <a href="tel:+919528295631" class="text-base lg:text-md">+919528295631</a>
+                <a href="tel:+917906351589" class="text-base lg:text-md">+917906351589</a>
                 <a href="mailto:kyraitsolutions@gmail.com" class="text-base lg:text-md"><span class=" font-medium">kyraitsolutions@gmail.com</span></a>
               </div>
             </section>
