@@ -60,6 +60,7 @@
       <p class="text-base md:text-md text-white">
         2025 | Kyra IT Solutions
       </p>
+        
       <button class="text-right text-base md:text-md text-white" @click="handleSubscribe">
         Subscribe Now
       </button>
