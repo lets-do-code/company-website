@@ -14,8 +14,8 @@
             <h1 href="mailto:kyraitsolutions@gmail.com" class="text-base lg:text-md font-semibold text-[#0B132A] mt-5">
                 Email: <span>kyraitsolutions@gmail.com</span>
             </h1>
-            <h1 href="tel:+919528295631" class="text-base lg:text-md font-semibold text-[#0B132A] mt-2">
-                Phone: <span>+91 9528295631</span>
+            <h1 href="tel:+917906351589" class="text-base lg:text-md font-semibold text-[#0B132A] mt-2">
+                Phone: <span>+91 7906351589</span>
             </h1>
             <img src="/About.png" alt="contact"/>
         </div>
